@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Osgi_Food_Service_Producer
+Bundle-SymbolicName: Osgi_Food_Service_Producer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: osgi_food_service_producer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-13
+Automatic-Module-Name: Osgi.Food.Service.roducer
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: osgi_food_service_producer

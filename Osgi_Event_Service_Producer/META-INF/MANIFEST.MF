@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Osgi_Event_Service_Producer
+Bundle-SymbolicName: Osgi_Event_Service_Producer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: osgi_event_service_producer.ServiceActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-13
+Automatic-Module-Name: Osgi.Event.Service.Producer
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: osgi_event_service_producer
